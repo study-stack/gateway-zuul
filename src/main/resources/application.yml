@@ -4,6 +4,9 @@ zuul:
     oauth:
       path: /oauth/**
       serviceId: stdstack-auth-server
+    course-api:
+      path: /courses/**
+      serviceId: stdstack-course-service
   retryable: true
   ignored-services: "*"
 
