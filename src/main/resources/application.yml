@@ -9,6 +9,7 @@ zuul:
       serviceId: stdstack-course-service
   retryable: true
   ignored-services: "*"
+  ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
 
 security:
   oauth2:
